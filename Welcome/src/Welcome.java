@@ -24,5 +24,10 @@ public class Welcome {
 		String PC13 = "deleted";
 		String message  = expletive +  m;
 		System.out.print(message);
+		String greting = "Hello";
+		int index = greting.offsetByCodePoints(0, 3);
+		int cp = greting.codePointAt(index);
+		System.out.println();
+		System.out.print(cp);
 	}
 }
