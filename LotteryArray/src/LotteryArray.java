@@ -18,7 +18,7 @@ public class LotteryArray {
 		{
 			for (int odd : row)
 				System.out.printf("%4d", odd);
-			System.out.println();
+			System.out.println( );
 		}
 	}
 }
